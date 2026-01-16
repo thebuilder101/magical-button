@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAG - sc</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <style>
+    body{
+        overflow-y: hidden;
+    }
+        .cont{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .mag{
+            transition: all 2s ease-in-out 0.3s;
+        }
+        .mag:hover{
+            
+           
+            border: 2px solid #da870b;
+            border-radius: 12px;
+            cursor: pointer;
+            backdrop-filter: blur(10px);
+            font-size: 18px;
+            background-color: #1e1e1e;
+            color:#ffffff;
+            transform: scale(2);
+            box-shadow: 0 0 20px #f3390a, 0 0 40px #c4240866;
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <button class="mag">Hover over me</button>
+    </div>
+</body>
+</html>
